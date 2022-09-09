@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+/**main - entry  point or simply main block**/
 int main(void)
 {
 int n;
