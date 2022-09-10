@@ -1,2 +1,1 @@
-ls
-clear
+my first readme
