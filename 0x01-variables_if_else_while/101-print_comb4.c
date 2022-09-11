@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the possible combinations of three different digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - Entry point
  *
  * Return: Always 0.
  */
@@ -22,13 +21,18 @@ putchar((digit3 % 10) + '0');
 
 if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 continue;
-				
+
 putchar(',');
+
 putchar(' ');
 }
 }
 }
 
+	
 putchar('\n');
 
+return (0);
 }
+
+
