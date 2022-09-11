@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - entry point.
+ * main - Prints the alphabet
  *
- * Return: Stops the program by returning 0.
+ * Return: Always (Success)
  */
 int main(void)
 {
-char letter;
+char c;
 
-for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
+
 putchar('\n');
-
 return (0);
 }
+
