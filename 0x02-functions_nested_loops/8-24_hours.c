@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "digit.h"
 
 /**
  * jack_bauer - Prints every minute of the day of
