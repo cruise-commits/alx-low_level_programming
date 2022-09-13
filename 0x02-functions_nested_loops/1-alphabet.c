@@ -1,11 +1,8 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 #include "main.h"
 /**
-* print_alphabet - Make the alphabet
+* print_alphabet - Prints the alphabet in lowercase
 *
-* Return: void
+* Return 0
 */
 void print_alphabet(void)
 {
@@ -13,7 +10,8 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar(c);
+_putchar(c);
 }
-putchar('\n');
+
+_putchar('\n');
 }
