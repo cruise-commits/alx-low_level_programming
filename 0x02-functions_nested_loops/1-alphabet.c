@@ -1,4 +1,4 @@
-#include "alphabet.h"
+#include "main.h"
 
 /**
   * print_alphabet - Prints the alphabet in lowercase
@@ -11,9 +11,9 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(c);
+putchar(c);
 }
 
-_putchar('\n');
+putchar('\n');
 }
 
