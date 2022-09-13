@@ -1,9 +1,12 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 #include "main.h"
 /**
-  * print_alphabet - Prints the alphabet in lowercase
-  *
-  * Return: void
-  */
+* print_alphabet - Prints the alphabet in lowercase
+*
+* Return: void
+*/
 void print_alphabet(void);
 {
 char c;
@@ -15,4 +18,3 @@ putchar(c);
 
 putchar('\n');
 }
-
