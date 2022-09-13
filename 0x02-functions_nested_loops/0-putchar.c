@@ -1,6 +1,9 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 #include "main.h"
 /**
-  * main - Entry point
+  * print_alphabet - Make the alphabet
   *
   * Return: Always 0
   */
