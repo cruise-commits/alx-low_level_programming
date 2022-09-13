@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
-/**
-  * print_alphabet - Make the alphabet
-  *
-  * Return: Always 0
-  */
+/**                                                                                                                                                    
+  * main: entry point                                                                                                                 
+  *                                                                                                                                                    
+  * Return: Always 0                                                                                                                                   
+ */
 int main(void)
 {
 putchar('_');
