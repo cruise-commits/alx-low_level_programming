@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
-/**                                                                                                                                                    
-  * main: entry point                                                                                                                 
-  *                                                                                                                                                    
-  * Return: Always 0                                                                                                                                   
- */
+/**
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
 int main(void)
 {
 putchar('_');
@@ -18,6 +18,6 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-
+ 
 return (0);
 }
